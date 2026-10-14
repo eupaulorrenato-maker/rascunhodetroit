@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motor City Shield Exteriors | Detroit Roofing, Siding & Deck Estimates</title>
+  
+  <!-- Google Fonts: High Legibility for 50+ Audience -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Accessible Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-100 text-slate-900 min-h-screen flex flex-col justify-between">
+
+  <!-- ============================================================== -->
+  <!-- TOP TRUST & CALL HEADER                                       -->
+  <!-- ============================================================== -->
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm no-print">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-4">
+      
+      <!-- Company Brand -->
+      <a href="javascript:void(0)" onclick="app.showView('decision-screen')" class="flex items-center gap-3 group">
+        <div class="w-11 h-11 rounded-xl bg-sky-700 text-white flex items-center justify-center font-black text-2xl shadow-md group-hover:bg-sky-800 transition-colors">
+          M
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-extrabold text-lg sm:text-xl text-slate-900 font-heading tracking-tight">MOTOR CITY SHIELD</span>
+            <span class="hidden sm:inline-block px-2 py-0.5 rounded text-xs font-bold bg-sky-100 text-sky-800 border border-sky-200">DETROIT</span>
+          </div>
+          <p class="text-xs text-slate-500 font-medium hidden sm:block">Roofing, Siding & Decks • Built for Michigan Winters</p>
+        </div>
+      </a>
+
+      <!-- Direct Phone Hotline -->
+      <div class="flex items-center gap-3">
+        <div class="text-right hidden md:block">
+          <span class="text-xs text-slate-500 uppercase font-semibold block">Questions? Speak With an Estimator</span>
+          <a href="tel:3135588920" class="text-base font-extrabold text-sky-700 hover:text-sky-900 font-mono">(313) 558-8920</a>
+        </div>
+        <a href="tel:3135588920" class="btn-primary-green !py-2.5 !px-4 !text-sm">
+          <i data-lucide="phone-call" class="w-4 h-4"></i>
+          <span class="hidden sm:inline">Call (313) 558-8920</span>
+          <span class="sm:hidden">Call Now</span>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Sub-header Trust Strip -->
+    <div class="bg-slate-50 border-t border-slate-200 py-1.5 px-4 text-center">
+      <div class="max-w-5xl mx-auto flex flex-wrap items-center justify-center gap-x-6 gap-y-1 text-xs text-slate-600 font-medium">
+        <span>✓ Michigan State Builder License #2101294812</span>
+        <span>✓ Serving Wayne, Oakland & Macomb Counties</span>
+        <span>✓ 100% Free In-Home Estimates & Written Guarantees</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================== -->
+  <!-- MAIN INTERACTIVE CONTAINER                                     -->
+  <!-- ============================================================== -->
+  <main class="max-w-4xl mx-auto w-full px-4 sm:px-6 py-8 flex-1">
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 1: THE FORK (DECISION SCREEN)                         -->
+    <!-- ============================================================ -->
+    <section id="decision-screen" class="view-screen active">
+      <div class="text-center max-w-2xl mx-auto mb-8">
+        <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-100 text-sky-800 mb-3 border border-sky-200">
+          Fast & Friendly Service
+        </span>
+        <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-900 font-heading tracking-tight leading-tight">
+          How would you like to get your estimate today?
+        </h1>
+        <p class="text-slate-600 text-base sm:text-lg mt-3 leading-relaxed">
+          We understand that every homeowner is different. Choose the option below that is easiest and most comfortable for you:
+        </p>
+      </div>
+
+      <!-- Two Big Decision Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- OPTION 1: SIMPLE IN-HOME VISIT (30 SECONDS) -->
+        <div class="bg-white border-2 border-emerald-500 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-lg relative hover:shadow-xl transition-shadow">
+          <div class="absolute -top-3.5 left-6 bg-emerald-600 text-white px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider shadow">
+            ★ Most Popular for 50+
+          </div>
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-800 flex items-center justify-center mb-5">
+              <i data-lucide="home" class="w-7 h-7"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-slate-900 font-heading">
+              Option 1: Quick In-Home Visit
+            </h2>
+            <p class="text-sm font-semibold text-emerald-700 mt-1">
+              Takes 30 seconds • No long computer typing
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+              Don’t feel like typing on a screen? Simply give us your name, phone number, and address. A polite, licensed exterior specialist will visit your home, inspect the problem, and give you an exact price in person.
+            </p>
+
+            <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-700">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                <span>100% Free — no obligation or sales pressure</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                <span>We inspect your roof, siding, or deck in person</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600 flex-shrink-0"></i>
+                <span>You get a guaranteed written quote on the spot</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-100">
+            <button onclick="app.showView('simple-form-screen')" class="btn-primary-green w-full">
+              <span>Book My Free In-Person Visit</span>
+              <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- OPTION 2: DETAILED ONLINE DIAGNOSTIC & ESTIMATE -->
+        <div class="bg-white border-2 border-slate-300 rounded-2xl p-6 sm:p-8 flex flex-col justify-between shadow-md relative hover:border-sky-500 hover:shadow-xl transition-all">
+          <div class="absolute -top-3.5 left-6 bg-sky-700 text-white px-3 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider shadow">
+            Detailed Online Diagnostic
+          </div>
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-sky-100 text-sky-800 flex items-center justify-center mb-5">
+              <i data-lucide="clipboard-list" class="w-7 h-7"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-slate-900 font-heading">
+              Option 2: Detailed Online Scope & Estimate
+            </h2>
+            <p class="text-sm font-semibold text-sky-700 mt-1">
+              Select specific problems, add-ons, photos & see costs
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+              Want to see numbers and customize your project? Select your exact symptoms, attach photos, pick optional upgrades (like gutters or insulation), and get an instant price range and diagnosis.
+            </p>
+
+            <ul class="mt-4 space-y-2 text-xs sm:text-sm text-slate-700">
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-sky-600 flex-shrink-0"></i>
+                <span>Multi-select technical problems (leaks, rot, ice)</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-sky-600 flex-shrink-0"></i>
+                <span>Attach photos & write your personal notes</span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="check" class="w-4 h-4 text-sky-600 flex-shrink-0"></i>
+                <span>Explore Michigan-grade upgrades & live price ranges</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-100">
+            <button onclick="app.startDiagnostic()" class="btn-primary-blue w-full">
+              <span>Start Technical Online Diagnostic</span>
+              <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Trust Assurance Box -->
+      <div class="mt-10 bg-white rounded-2xl p-5 border border-slate-200 text-center flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-slate-600">
+        <div class="flex items-center gap-2">
+          <i data-lucide="shield-check" class="w-5 h-5 text-sky-700"></i>
+          <span>No pushy sales tactics — just honest, experienced advice</span>
+        </div>
+        <span class="hidden sm:inline text-slate-300">•</span>
+        <div>
+          <span>Prefer to talk directly? Call us anytime: </span>
+          <a href="tel:3135588920" class="font-bold text-sky-700 hover:underline">(313) 558-8920</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 2: SIMPLE IN-HOME VISIT FORM (PATH A)                 -->
+    <!-- ============================================================ -->
+    <section id="simple-form-screen" class="view-screen">
+      
+      <button onclick="app.showView('decision-screen')" class="btn-secondary mb-6">
+        <i data-lucide="arrow-left" class="w-4 h-4"></i>
+        <span>Back to options</span>
+      </button>
+
+      <div class="bg-white rounded-2xl p-6 sm:p-10 border border-slate-200 shadow-md">
+        
+        <div class="mb-8">
+          <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800 mb-2">
+            30-Second Free In-Home Visit
+          </span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
+            Where should we send our exterior specialist?
+          </h2>
+          <p class="text-slate-600 text-base mt-1">
+            Please fill out the simple details below. We will never share your information, and there is zero obligation.
+          </p>
+        </div>
+
+        <form onsubmit="app.submitSimpleForm(event)" class="space-y-6">
+          
+          <!-- Question 1: What can we help with? -->
+          <div>
+            <label class="block text-sm font-bold text-slate-900 mb-2">
+              1. What would you like us to look at?
+            </label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <button type="button" id="simple-srv-roofing" onclick="app.selectSimpleService('Roofing')"
+                      class="p-4 rounded-xl border-2 border-sky-600 bg-sky-50 text-sky-900 font-bold text-base text-center transition-all flex flex-col items-center gap-1.5 shadow-sm">
+                <i data-lucide="shield" class="w-6 h-6 text-sky-700"></i>
+                <span>Roofing</span>
+              </button>
+              <button type="button" id="simple-srv-siding" onclick="app.selectSimpleService('Siding')"
+                      class="p-4 rounded-xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-base text-center transition-all flex flex-col items-center gap-1.5 hover:border-slate-400">
+                <i data-lucide="home" class="w-6 h-6 text-slate-600"></i>
+                <span>Siding</span>
+              </button>
+              <button type="button" id="simple-srv-decking" onclick="app.selectSimpleService('Decking')"
+                      class="p-4 rounded-xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-base text-center transition-all flex flex-col items-center gap-1.5 hover:border-slate-400">
+                <i data-lucide="layout" class="w-6 h-6 text-slate-600"></i>
+                <span>Decking</span>
+              </button>
+              <button type="button" id="simple-srv-multiple---not-sure" onclick="app.selectSimpleService('Multiple / Not Sure')"
+                      class="p-4 rounded-xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-base text-center transition-all flex flex-col items-center gap-1.5 hover:border-slate-400">
+                <i data-lucide="help-circle" class="w-6 h-6 text-slate-600"></i>
+                <span>Multiple / Other</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Question 2: Name & Phone -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="simple-name" class="block text-sm font-bold text-slate-900 mb-1.5">
+                2. Your Full Name *
+              </label>
+              <input type="text" id="simple-name" required placeholder="e.g. Robert Smith"
+                     class="accessible-input">
+            </div>
+            <div>
+              <label for="simple-phone" class="block text-sm font-bold text-slate-900 mb-1.5">
+                3. Your Phone Number *
+              </label>
+              <input type="tel" id="simple-phone" required placeholder="(313) 555-0199"
+                     class="accessible-input">
+              <span class="text-xs text-slate-500 mt-1 block">We only use this to confirm your appointment time.</span>
+            </div>
+          </div>
+
+          <!-- Question 3: Street Address & Zip -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="sm:col-span-2">
+              <label for="simple-address" class="block text-sm font-bold text-slate-900 mb-1.5">
+                4. Street Address *
+              </label>
+              <input type="text" id="simple-address" required placeholder="e.g. 1420 Woodward Ave"
+                     class="accessible-input">
+            </div>
+            <div>
+              <label for="simple-zip" class="block text-sm font-bold text-slate-900 mb-1.5">
+                Detroit Zip Code *
+              </label>
+              <input type="text" id="simple-zip" required maxlength="5" placeholder="e.g. 48206"
+                     class="accessible-input">
+              <span id="simple-zip-badge" class="text-xs font-semibold text-emerald-700 block mt-1"></span>
+            </div>
+          </div>
+
+          <!-- Question 4: Best time to stop by -->
+          <div>
+            <label class="block text-sm font-bold text-slate-900 mb-2">
+              5. What time of day is best for us to stop by?
+            </label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+              <button type="button" id="time-slot-morning" onclick="app.selectSimpleTime('Morning (9am - 12pm)')"
+                      class="p-3 rounded-lg border-2 border-sky-600 bg-sky-50 font-bold text-sky-900 text-xs sm:text-sm text-center">
+                Morning (9am–12pm)
+              </button>
+              <button type="button" id="time-slot-afternoon" onclick="app.selectSimpleTime('Afternoon (12pm - 4pm)')"
+                      class="p-3 rounded-lg border-2 border-slate-300 bg-white font-medium text-slate-700 text-xs sm:text-sm text-center hover:border-slate-400">
+                Afternoon (12pm–4pm)
+              </button>
+              <button type="button" id="time-slot-late" onclick="app.selectSimpleTime('Late Afternoon (4pm - 7pm)')"
+                      class="p-3 rounded-lg border-2 border-slate-300 bg-white font-medium text-slate-700 text-xs sm:text-sm text-center hover:border-slate-400">
+                Late (4pm–7pm)
+              </button>
+              <button type="button" id="time-slot-any" onclick="app.selectSimpleTime('Any Time Works')"
+                      class="p-3 rounded-lg border-2 border-slate-300 bg-white font-medium text-slate-700 text-xs sm:text-sm text-center hover:border-slate-400">
+                Any Time Works
+              </button>
+            </div>
+          </div>
+
+          <!-- Question 5: Optional Notes -->
+          <div>
+            <label for="simple-notes" class="block text-sm font-bold text-slate-900 mb-1.5">
+              Optional: Anything specific you want us to know?
+            </label>
+            <textarea id="simple-notes" rows="2" placeholder="e.g. leak above the dining room ceiling, gate in backyard is unlocked, etc."
+                      class="accessible-input"></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="pt-4 border-t border-slate-200">
+            <button type="submit" class="btn-primary-green w-full text-lg py-4">
+              <i data-lucide="calendar-check" class="w-6 h-6"></i>
+              <span>Confirm My Free In-Person Visit</span>
+            </button>
+            <p class="text-xs text-slate-500 text-center mt-3">
+              🔒 Your information is confidential and will never be shared. A friendly team member will call you to confirm your date and time.
+            </p>
+          </div>
+        </form>
+
+      </div>
+
+      <div class="mt-6 text-center text-sm text-slate-600">
+        <span>Prefer to see estimated prices on your screen right now? </span>
+        <button onclick="app.startDiagnostic()" class="font-bold text-sky-700 underline hover:text-sky-900">
+          Click here to take the comprehensive online diagnostic.
+        </button>
+      </div>
+
+    </section>
+
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 3: COMPREHENSIVE TECHNICAL DIAGNOSTIC (PATH B)        -->
+    <!-- ============================================================ -->
+    <section id="diagnostic-screen" class="view-screen">
+      
+      <!-- Progress Bar & Navigation Header -->
+      <div class="flex items-center justify-between gap-4 mb-6">
+        <button onclick="app.prevDiagnosticStep()" class="btn-secondary">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i>
+          <span>Back</span>
+        </button>
+
+        <div class="flex-1 max-w-xs text-center">
+          <span id="diag-step-counter" class="text-xs font-bold uppercase tracking-wider text-slate-500 block mb-1">
+            Step 1 of 5
+          </span>
+          <div class="step-track">
+            <div id="diag-progress-fill" class="step-fill" style="width: 20%;"></div>
+          </div>
+        </div>
+
+        <a href="tel:3135588920" class="text-xs font-bold text-slate-600 hover:text-sky-700 hidden sm:inline-flex items-center gap-1">
+          <i data-lucide="phone" class="w-3.5 h-3.5"></i>
+          <span>(313) 558-8920</span>
+        </a>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 sm:p-10 border border-slate-200 shadow-md">
+        
+        <!-- STEP 1: SPECIALTY & ARCHITECTURAL PROFILE -->
+        <div id="diag-step-content-1">
+          <div class="mb-6">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-100 text-sky-800 mb-2">
+              Step 1 of 5: Project Scope
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
+              Select Your Specialty & Home Style
+            </h2>
+            <p class="text-slate-600 text-base mt-1">
+              Choose your project focus to see tailored technical questions:
+            </p>
+          </div>
+
+          <!-- Specialty Selector (3 big buttons) -->
+          <div class="grid grid-cols-3 gap-3 mb-6">
+            <button type="button" id="diag-spec-roof" onclick="app.setDiagnosticSpecialty('roof')"
+                    class="p-4 rounded-xl border-2 border-sky-600 bg-sky-50 text-sky-900 font-bold text-sm sm:text-base text-center flex flex-col items-center gap-1.5">
+              <i data-lucide="shield" class="w-6 h-6 text-sky-700"></i>
+              <span>Roofing</span>
+            </button>
+            <button type="button" id="diag-spec-siding" onclick="app.setDiagnosticSpecialty('siding')"
+                    class="p-4 rounded-xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-sm sm:text-base text-center flex flex-col items-center gap-1.5 hover:border-slate-400">
+              <i data-lucide="home" class="w-6 h-6 text-slate-600"></i>
+              <span>Siding</span>
+            </button>
+            <button type="button" id="diag-spec-deck" onclick="app.setDiagnosticSpecialty('deck')"
+                    class="p-4 rounded-xl border-2 border-slate-300 bg-white text-slate-700 font-bold text-sm sm:text-base text-center flex flex-col items-center gap-1.5 hover:border-slate-400">
+              <i data-lucide="layout" class="w-6 h-6 text-slate-600"></i>
+              <span>Decking</span>
+            </button>
+          </div>
+
+          <!-- Architectural Profile Grid -->
+          <div class="mb-6">
+            <label class="block text-sm font-bold text-slate-900 mb-2">
+              Detroit Architectural Style & Geometry
+            </label>
+            <div id="diag-styles-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- System Age Buttons -->
+          <div class="mb-6 pt-4 border-t border-slate-100">
+            <label class="block text-sm font-bold text-slate-900 mb-2">
+              Approximate Age of Current Exterior
+            </label>
+            <div class="grid grid-cols-4 gap-2">
+              <button type="button" id="age-btn-0-5" onclick="app.selectAge('0-5')"
+                      class="p-2.5 rounded-lg border-2 border-slate-300 text-xs sm:text-sm font-medium hover:border-slate-400">
+                0 – 5 Years
+              </button>
+              <button type="button" id="age-btn-6-12" onclick="app.selectAge('6-12')"
+                      class="p-2.5 rounded-lg border-2 border-slate-300 text-xs sm:text-sm font-medium hover:border-slate-400">
+                6 – 12 Years
+              </button>
+              <button type="button" id="age-btn-13-19" onclick="app.selectAge('13-19')"
+                      class="p-2.5 rounded-lg border-2 border-sky-600 bg-sky-50 text-sky-900 font-bold text-xs sm:text-sm">
+                13 – 19 Years
+              </button>
+              <button type="button" id="age-btn-20+" onclick="app.selectAge('20+')"
+                      class="p-2.5 rounded-lg border-2 border-slate-300 text-xs sm:text-sm font-medium hover:border-slate-400">
+                20+ Years
+              </button>
+            </div>
+          </div>
+
+          <!-- Michigan Building Code Alert -->
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 flex items-start gap-2.5">
+            <i data-lucide="info" class="w-4 h-4 text-sky-700 flex-shrink-0 mt-0.5"></i>
+            <div>
+              <span class="font-bold text-slate-800">Michigan Building Code Compliance: </span>
+              <span id="diag-spec-code-notice">Michigan Residential Code R905 requires ice barrier protection at least 24 inches inside the exterior wall line.</span>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-100 flex justify-end">
+            <button onclick="app.nextDiagnosticStep()" class="btn-primary-blue w-full sm:w-auto">
+              <span>Next: Select Specific Problems</span>
+              <i data-lucide="chevron-right" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 2: TECHNICAL DAMAGE & SYMPTOMS CHECKLIST -->
+        <div id="diag-step-content-2" style="display: none;">
+          <div class="mb-6">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-100 text-sky-800 mb-2">
+              Step 2 of 5: Technical Problems
+            </span>
+            <h2 id="diag-symptoms-header" class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
+              Select All Issues or Damage You Notice
+            </h2>
+            <p class="text-slate-600 text-base mt-1">
+              Check all that apply. This helps us diagnose whether localized repair or complete replacement is required:
+            </p>
+          </div>
+
+          <div id="diag-symptoms-grid" class="space-y-3">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="app.prevDiagnosticStep()" class="btn-secondary">
+              <i data-lucide="arrow-left" class="w-4 h-4"></i> Previous
+            </button>
+            <button onclick="app.nextDiagnosticStep()" class="btn-primary-blue">
+              <span>Next: Choose Upgrades & Add-ons</span>
+              <i data-lucide="chevron-right" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 3: RECOMMENDED MICHIGAN UPGRADES & ADD-ONS -->
+        <div id="diag-step-content-3" style="display: none;">
+          <div class="mb-6">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-100 text-sky-800 mb-2">
+              Step 3 of 5: Optional Upgrades
+            </span>
+            <h2 id="diag-upgrades-title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
+              Recommended Michigan Upgrades & Extras
+            </h2>
+            <p class="text-slate-600 text-base mt-1">
+              Select any additional improvements you would like included in your preliminary scope:
+            </p>
+          </div>
+
+          <div id="diag-upgrades-grid" class="space-y-3">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="app.prevDiagnosticStep()" class="btn-secondary">
+              <i data-lucide="arrow-left" class="w-4 h-4"></i> Previous
+            </button>
+            <button onclick="app.nextDiagnosticStep()" class="btn-primary-blue">
+              <span>Next: Attach Photos & Notes</span>
+              <i data-lucide="chevron-right" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 4: PHOTOS, CUSTOM DESCRIPTION & TIMELINE -->
+        <div id="diag-step-content-4" style="display: none;">
+          <div class="mb-6">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-100 text-sky-800 mb-2">
+              Step 4 of 5: Photos & Personal Notes
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
+              Attach Photos & Describe Your Situation
+            </h2>
+            <p class="text-slate-600 text-base mt-1">
+              Photos and custom details help our estimators verify damage and prepare exact material samples in advance.
+            </p>
+          </div>
+
+          <!-- Photo Upload Dropzone -->
+          <div class="mb-6">
+            <label class="block text-sm font-bold text-slate-900 mb-2">
+              Upload Photos of Your Roof, Siding, Deck or Water Stains (Optional)
+            </label>
+            <div class="border-2 border-dashed border-slate-300 hover:border-sky-500 rounded-2xl p-6 text-center bg-slate-50 transition-colors">
+              <input type="file" id="diag-photo-input" multiple accept="image/*" class="hidden">
+              <label for="diag-photo-input" class="cursor-pointer flex flex-col items-center justify-center">
+                <div class="w-12 h-12 rounded-full bg-sky-100 text-sky-700 flex items-center justify-center mb-2">
+                  <i data-lucide="camera" class="w-6 h-6"></i>
+                </div>
+                <span class="text-sm font-bold text-slate-800">Click to select photos or drag & drop here</span>
+                <span class="text-xs text-slate-500 mt-0.5">JPEG, PNG, HEIC up to 15MB each</span>
+              </label>
+            </div>
+
+            <!-- Preview Thumbnails Grid -->
+            <div id="diag-photo-preview-grid" class="flex items-center gap-3 mt-3 flex-wrap">
+              <span class="text-xs text-slate-500 italic">No photos attached yet (optional).</span>
+            </div>
+          </div>
+
+          <!-- Free-text Custom Description Box -->
+          <div class="mb-6">
+            <label for="diag-custom-notes" class="block text-sm font-bold text-slate-900 mb-1.5">
+              Describe your problem or special requests in your own words (Optional)
+            </label>
+            <textarea id="diag-custom-notes" rows="3"
+                      placeholder="e.g. We have had leaks near the chimney whenever heavy snow melts. We would also like our gutters replaced, and we have a steep roof pitch."
+                      class="accessible-input"></textarea>
+            <span class="text-xs text-slate-500 mt-1 block">Write as much or as little as you'd like. Our estimators read every note.</span>
+          </div>
+
+          <!-- Project Timeline & Insurance Claims -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-slate-100">
+            <div>
+              <label for="diag-timeline" class="block text-sm font-bold text-slate-900 mb-1.5">
+                Desired Project Timeline
+              </label>
+              <select id="diag-timeline" class="accessible-input">
+                <option value="immediate">Immediate Hazard / Active Leak (Within 48h)</option>
+                <option value="2-4weeks" selected>Within 2 – 4 Weeks</option>
+                <option value="1-3months">Next 1 – 3 Months</option>
+                <option value="spring-summer">Planning Ahead for Spring / Summer</option>
+              </select>
+            </div>
+            <div>
+              <label for="diag-insurance" class="block text-sm font-bold text-slate-900 mb-1.5">
+                Storm Damage / Insurance Claim
+              </label>
+              <select id="diag-insurance" class="accessible-input">
+                <option value="no" selected>No Insurance Claim (Direct Investment)</option>
+                <option value="yes">Yes, Claim Already Filed with Adjuster</option>
+                <option value="need-help">Need Help Documenting Damage for Insurance</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="app.prevDiagnosticStep()" class="btn-secondary">
+              <i data-lucide="arrow-left" class="w-4 h-4"></i> Previous
+            </button>
+            <button onclick="app.nextDiagnosticStep()" class="btn-primary-blue">
+              <span>Next: Select Material Quality</span>
+              <i data-lucide="chevron-right" class="w-5 h-5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 5: MATERIAL QUALITY TIER -->
+        <div id="diag-step-content-5" style="display: none;">
+          <div class="mb-6">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-sky-100 text-sky-800 mb-2">
+              Step 5 of 5: Material Selection
+            </span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
+              Choose Your Preferred Material Grade
+            </h2>
+            <p class="text-slate-600 text-base mt-1">
+              Every material we install is designed to endure Michigan sub-zero winters and ice:
+            </p>
+          </div>
+
+          <div id="diag-materials-list" class="space-y-4">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between">
+            <button onclick="app.prevDiagnosticStep()" class="btn-secondary">
+              <i data-lucide="arrow-left" class="w-4 h-4"></i> Previous
+            </button>
+            <button onclick="app.nextDiagnosticStep()" class="btn-primary-green text-lg py-3.5">
+              <span>Generate My Scope & Estimate →</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 4: DIAGNOSTIC RESULTS & SCOPE DOSSIER                  -->
+    <!-- ============================================================ -->
+    <section id="diagnostic-results-screen" class="view-screen">
+      
+      <!-- Top Action Bar -->
+      <div class="flex items-center justify-between mb-6 no-print">
+        <button onclick="app.startDiagnostic()" class="btn-secondary">
+          <i data-lucide="refresh-cw" class="w-4 h-4"></i>
+          <span>Modify My Scope</span>
+        </button>
+        <button onclick="window.print()" class="btn-secondary">
+          <i data-lucide="printer" class="w-4 h-4"></i>
+          <span>Print Specification Sheet</span>
+        </button>
+      </div>
+
+      <div class="bg-white rounded-2xl p-6 sm:p-10 border border-slate-200 shadow-md">
+        
+        <!-- Verdict Header -->
+        <div class="border-b border-slate-200 pb-6 mb-6">
+          <div class="flex items-center justify-between flex-wrap gap-2">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-emerald-100 text-emerald-800">
+              ✓ Diagnostic Dossier Ready
+            </span>
+            <span id="results-photo-count" class="text-xs font-bold text-slate-500 font-mono">0 photos attached</span>
+          </div>
+          <h2 id="results-verdict-title" class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading mt-2">
+            We Recommend a Full System Replacement
+          </h2>
+          <p id="results-verdict-sub" class="text-slate-600 text-sm mt-1">
+            Multiple structural or moisture vulnerabilities detected.
+          </p>
+        </div>
+
+        <!-- Itemized Diagnostic Scope Breakdown -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+          
+          <!-- Flagged Symptoms Box -->
+          <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+            <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
+              <i data-lucide="alert-triangle" class="w-4 h-4 text-amber-600"></i>
+              <span>Observed Problems Flagged:</span>
+            </h3>
+            <ul id="results-flagged-symptoms-list" class="space-y-2">
+              <!-- Populated by JS -->
+            </ul>
+          </div>
+
+          <!-- Selected Upgrades Box -->
+          <div class="bg-slate-50 rounded-xl p-5 border border-slate-200">
+            <h3 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
+              <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600"></i>
+              <span>Included Upgrades & Add-ons:</span>
+            </h3>
+            <ul id="results-selected-upgrades-list" class="space-y-2">
+              <!-- Populated by JS -->
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Custom Notes Display -->
+        <div id="results-user-notes-display"></div>
+
+        <!-- Transparent Estimated Price Range -->
+        <div class="bg-sky-50 border-2 border-sky-300 rounded-2xl p-6 sm:p-8 my-6 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-sky-800 block">
+              Estimated Metro Detroit Turn-Key Range
+            </span>
+            <div id="results-price-range" class="text-3xl sm:text-4xl font-extrabold text-sky-950 font-mono mt-1">
+              $8,900 – $13,500
+            </div>
+            <p id="results-material-title" class="text-sm font-semibold text-slate-700 mt-1">
+              CertainTeed NorthGate® Storm Shingles (Most Popular)
+            </p>
+            <p class="text-xs text-slate-500 mt-1">
+              Includes full tear-off, Michigan code ice & water shield, labor, dumpster disposal & 50-year warranty.
+            </p>
+          </div>
+          <div class="sm:border-l sm:border-sky-200 sm:pl-6 text-center sm:text-left">
+            <span class="text-xs text-slate-500 block">Typical Work Duration</span>
+            <span class="text-xl font-bold text-slate-900">1 – 2 Days</span>
+            <span class="text-xs text-emerald-700 font-semibold block mt-1">✓ Complete Magnetic Yard Sweep</span>
+          </div>
+        </div>
+
+        <!-- Lock in Estimate Form -->
+        <div class="border-t border-slate-200 pt-6 no-print">
+          <h3 class="text-xl font-bold text-slate-900 font-heading mb-1">
+            Lock In This Estimate & Request On-Site Verification
+          </h3>
+          <p class="text-slate-600 text-sm mb-4">
+            Enter your contact details. A certified technician will review your photos and notes, verify measurements in person, and give you an exact written quote at zero cost.
+          </p>
+
+          <form onsubmit="app.submitDiagnosticLead(event)" class="grid grid-cols-1 sm:grid-cols-4 gap-3">
+            <div>
+              <label for="diag-contact-name" class="block text-xs font-bold text-slate-700 mb-1">Your Full Name *</label>
+              <input type="text" id="diag-contact-name" required placeholder="e.g. Mary Johnson"
+                     class="accessible-input !py-2.5">
+            </div>
+            <div>
+              <label for="diag-contact-phone" class="block text-xs font-bold text-slate-700 mb-1">Your Phone Number *</label>
+              <input type="tel" id="diag-contact-phone" required placeholder="(313) 555-0123"
+                     class="accessible-input !py-2.5">
+            </div>
+            <div>
+              <label for="diag-contact-address" class="block text-xs font-bold text-slate-700 mb-1">Street Address</label>
+              <input type="text" id="diag-contact-address" placeholder="e.g. 1420 Woodward Ave"
+                     class="accessible-input !py-2.5">
+            </div>
+            <div>
+              <label for="diag-contact-zip" class="block text-xs font-bold text-slate-700 mb-1">Detroit Zip Code *</label>
+              <input type="text" id="diag-contact-zip" required maxlength="5" placeholder="e.g. 48067"
+                     class="accessible-input !py-2.5">
+              <span id="diag-zip-badge" class="text-xs font-semibold text-emerald-700 block mt-0.5"></span>
+            </div>
+            <div class="sm:col-span-4 mt-2">
+              <button type="submit" class="btn-primary-green w-full text-lg py-3.5">
+                <span>Lock In My Estimate & Request Free In-Person Visit →</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================================================ -->
+    <!-- SCREEN 5: FRIENDLY CONFIRMATION SCREEN                        -->
+    <!-- ============================================================ -->
+    <section id="simple-success-screen" class="view-screen">
+      <div class="bg-white rounded-2xl p-8 sm:p-12 border border-slate-200 shadow-lg text-center max-w-xl mx-auto">
+        
+        <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto mb-5 shadow-inner">
+          <i data-lucide="check-circle" class="w-10 h-10"></i>
+        </div>
+
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading">
+          Thank you! We received your request.
+        </h2>
+        <p class="text-slate-600 text-base mt-2 leading-relaxed">
+          A friendly member of our Detroit team will call or text you shortly to confirm your inspection date and time.
+        </p>
+
+        <!-- Recap Card -->
+        <div class="mt-6 p-5 rounded-xl bg-slate-50 border border-slate-200 text-left text-sm space-y-2">
+          <div class="flex justify-between border-b border-slate-200 pb-2">
+            <span class="text-slate-500">Homeowner:</span>
+            <span id="success-name" class="font-bold text-slate-900">-</span>
+          </div>
+          <div class="flex justify-between border-b border-slate-200 pb-2">
+            <span class="text-slate-500">Phone:</span>
+            <span id="success-phone" class="font-bold text-slate-900 font-mono">-</span>
+          </div>
+          <div class="flex justify-between border-b border-slate-200 pb-2">
+            <span class="text-slate-500">Address / Area:</span>
+            <span id="success-address" class="font-bold text-slate-900">-</span>
+          </div>
+          <div class="flex justify-between border-b border-slate-200 pb-2">
+            <span class="text-slate-500">Project Focus:</span>
+            <span id="success-service" class="font-bold text-sky-800">-</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-slate-500">Preferred Window:</span>
+            <span id="success-time" class="font-bold text-emerald-800">-</span>
+          </div>
+        </div>
+
+        <!-- Urgent Contact Call Box -->
+        <div class="mt-8 p-4 rounded-xl bg-amber-50 border border-amber-200 text-xs sm:text-sm text-amber-900">
+          <strong>Have an active leak or urgent emergency right now?</strong><br>
+          Don't wait for our callback — call our direct dispatch line:
+          <a href="tel:3135588920" class="font-black text-sky-800 underline block text-base mt-1">(313) 558-8920</a>
+        </div>
+
+        <div class="mt-6">
+          <button onclick="app.showView('decision-screen')" class="btn-secondary w-full">
+            <span>Return to Main Menu</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================== -->
+  <!-- FOOTER                                                         -->
+  <!-- ============================================================== -->
+  <footer class="bg-white border-t border-slate-200 py-6 mt-12 no-print">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+      <div>
+        <span class="font-bold text-slate-700">Motor City Shield Exteriors</span> • 
+        Licensed Michigan Residential Builder #2101294812
+      </div>
+      <div>
+        Serving Detroit, Royal Oak, Birmingham, Troy, Livonia, Dearborn & surrounding areas.
+      </div>
+      <div>
+        Direct Phone: <a href="tel:3135588920" class="font-bold text-sky-700">(313) 558-8920</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>
+    window.addEventListener('load', () => {
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>

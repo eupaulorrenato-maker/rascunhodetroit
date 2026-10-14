@@ -1,0 +1,214 @@
+/*
+ * Motor City Shield Exteriors - Friendly, Accessible Styling for 50+ Homeowners
+ * High contrast, large legible typography, generous spacing, zero visual clutter.
+ */
+
+:root {
+  --primary-navy: #0f2238;
+  --secondary-navy: #1e3a5f;
+  --accent-blue: #0284c7;
+  --accent-green: #15803d;
+  --accent-amber: #b45309;
+  --bg-light: #f8fafc;
+  --border-light: #e2e8f0;
+  --text-dark: #0f172a;
+  --text-muted: #475569;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Accessible Interactive Cards */
+.choice-card {
+  background-color: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-radius: 1rem;
+  padding: 1.25rem 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.choice-card:hover {
+  border-color: #0284c7;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -4px rgba(15, 34, 56, 0.12);
+}
+
+.choice-card.selected {
+  border-color: #0284c7;
+  background-color: #f0f9ff;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.25), 0 8px 20px -4px rgba(2, 132, 199, 0.2);
+}
+
+.choice-card.selected .card-radio-dot {
+  background-color: #0284c7;
+  border-color: #0284c7;
+}
+
+.choice-card.selected .card-radio-dot-inner {
+  opacity: 1;
+}
+
+/* Large Accessible Form Inputs */
+.accessible-input {
+  width: 100%;
+  padding: 0.9rem 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #0f172a;
+  background-color: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-radius: 0.75rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.accessible-input:focus {
+  outline: none;
+  border-color: #0284c7;
+  box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.2);
+}
+
+.accessible-input::placeholder {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* Accessible Action Buttons */
+.btn-primary-green {
+  background: linear-gradient(180deg, #16a34a 0%, #15803d 100%);
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0.85rem;
+  padding: 1rem 1.75rem;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(21, 128, 61, 0.35);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary-green:hover {
+  background: linear-gradient(180deg, #15803d 0%, #166534 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(21, 128, 61, 0.45);
+}
+
+.btn-primary-blue {
+  background: linear-gradient(180deg, #0284c7 0%, #0369a1 100%);
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 0.85rem;
+  padding: 1rem 1.75rem;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary-blue:hover {
+  background: linear-gradient(180deg, #0369a1 0%, #075985 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.45);
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #334155;
+  font-weight: 600;
+  border: 2px solid #cbd5e1;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.btn-secondary:hover {
+  background-color: #f8fafc;
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+
+/* Screen Transitions */
+.view-screen {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.view-screen.active {
+  display: block;
+  opacity: 1;
+}
+
+/* Trust Badges */
+.trust-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background-color: #f1f5f9;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+}
+
+/* Step Bar */
+.step-track {
+  height: 8px;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.step-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #0284c7 0%, #38bdf8 100%);
+  border-radius: 9999px;
+  transition: width 0.4s ease;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 14pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .choice-card {
+    border: 1px solid #999999 !important;
+    box-shadow: none !important;
+  }
+}
